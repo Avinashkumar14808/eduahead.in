@@ -1,0 +1,444 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* overflow-x: hidden; */
+}
+
+.notes {
+    background: #DDF3F0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.notes h1 {
+    font-size: 64px;
+}
+
+.notes h1 span {
+    color: #FD2424;
+    opacity: 90%;
+}
+
+.imgLine {
+    display: none;
+    margin-left: 930px;
+}
+
+.btech-1st-sem,
+.btech-2nd-sem {
+    background: #FFFCF5;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.ctr {
+    font-size: 24px;
+}
+
+.sem,
+.sem2 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 80px;
+    padding-top: 32px;
+    color: #000;
+}
+
+.notes-1st,
+.notes-1st-2,
+.notes-1st-3,
+.notes-1st-4 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.notes-1st-4 {
+    margin-bottom: 96px;
+    margin-top: 32px;
+    padding-bottom: 64px;
+}
+
+.notes-card1 {
+    background: #FFF;
+    width: 500px;
+    height: 612px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.notes-card1 img {
+    width: 500px;
+}
+
+.math,
+.physics,
+.chem,
+.bee,
+.math2,
+.physics2,
+.s1pyq,
+.s2pyq,
+.pps {
+    color: #FD2424;
+    font-size: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.mname,
+.mnamee,
+.mnamea,
+.mnameb,
+.mnamec,
+.mnamed,
+.mnamef,
+.sname,
+.snamea {
+    background: #E5F5F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -4px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: normal;
+    color: #000;
+}
+
+.mname p,
+.mnamee p,
+.mnamea p,
+.mnameb p,
+.mnamec p,
+.mnamed p,
+.mnamef p,
+.sname p,
+.snamea p {
+    color: black;
+}
+
+.mname1,
+.mname2,
+.mname3,
+.mname4,
+.mname5,
+.mnamee1,
+.mnamee2,
+.mnamee3,
+.mnamee4,
+.mnamee5,
+.mnamea1,
+.mnamea2,
+.mnamea3,
+.mnamea4,
+.mnamea5,
+.mnameb1,
+.mnameb2,
+.mnameb3,
+.mnameb4,
+.mnameb5,
+.mnamec1,
+.mnamec2,
+.mnamec3,
+.mnamec4,
+.mnamec5,
+.mnamed1,
+.mnamed2,
+.mnamed3,
+.mnamed4,
+.mnamed5,
+.mnamef1,
+.mnamef2,
+.mnamef3,
+.mnamef4,
+.mnamef5,
+.mnamef6,
+.sname1,
+.sname2,
+.sname3,
+.sname4,
+.snamea1,
+.snamea2,
+.snamea3,
+.snamea4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin-top: 6px;
+}
+
+.mname1 {
+    gap: 140px;
+}
+
+.mname2 {
+    gap: 209px;
+}
+
+.mname3 {
+    gap: 200px;
+}
+
+.mname4 {
+    gap: 140px;
+}
+
+.mname5 {
+    gap: 150px;
+}
+
+.mnamee1 {
+    gap: 140px;
+}
+
+.mnamee2 {
+    gap: 165px;
+}
+
+.mnamee3 {
+    gap: 137px;
+}
+
+.mnamee4 {
+    gap: 160px;
+}
+
+.mnamee5 {
+    gap: 145px;
+}
+
+.mnamea1 {
+    gap: 120px;
+}
+
+.mnamea2 {
+    gap: 150px;
+}
+
+.mnamea3 {
+    gap: 145px;
+}
+
+.mnamea4 {
+    gap: 171px;
+}
+
+.mnamea5 {
+    gap: 146px;
+}
+
+.mnameb1,
+.mnameb2 {
+    gap: 170px;
+}
+
+.mnameb3 {
+    gap: 157px;
+}
+
+.mnameb4 {
+    gap: 120px;
+}
+
+.mnameb5 {
+    gap: 122px;
+}
+
+.mnamec1 {
+    gap: 140px;
+}
+
+.mnamec2 {
+    gap: 209px;
+}
+
+.mnamec3 {
+    gap: 200px;
+}
+
+.mnamec4 {
+    gap: 140px;
+}
+
+.mnamec5 {
+    gap: 150px;
+}
+
+.mnamed1 {
+    gap: 147px;
+}
+
+.mnamed2 {
+    gap: 169px;
+}
+
+.mnamed3 {
+    gap: 139px;
+}
+
+.mnamed4 {
+    gap: 162px;
+}
+
+.mnamed5 {
+    gap: 147px;
+}
+
+.mnamef1 {
+    gap: 125px;
+}
+
+.mnamef2 {
+    gap: 144px;
+}
+
+.mnamef3 {
+    gap: 222px;
+}
+
+.mnamef4 {
+    gap: 180px;
+}
+
+.mnamef5 {
+    gap: 102px;
+}
+
+.mnamef6 {
+    gap: 192px;
+}
+
+.sname1 {
+    gap: 200px;
+}
+
+.sname2 {
+    gap: 189px;
+}
+
+.sname3 {
+    gap: 162px;
+}
+
+.sname4 {
+    gap: 234px;
+}
+
+.snamea1 {
+    gap: 200px;
+}
+
+.snamea2 {
+    gap: 190px;
+}
+
+.snamea3 {
+    gap: 248px;
+}
+
+.snamea4 {
+    gap: 216px;
+}
+
+.dl,
+.dl1,
+.dl2,
+.dl3,
+.dl4,
+.dl5,
+.dl6 {
+    color: #28B3EB;
+}
+
+.md,
+.md1,
+.md2,
+.md3,
+.md4,
+.md5,
+.md6 {
+    color: black;
+}
+
+.notes-common {
+    margin-top: 96px;
+}
+
+.wat {
+    color: #28B3EB;
+    background: radial-gradient(circle, rgb(226, 10, 10) 28%, rgb(35, 13, 231) 53%, rgb(29, 192, 207) 100%) var(--c, 0%) / 200% 100%, radial-gradient(circle, rgb(226, 10, 10) 28%, rgb(35, 13, 231) 53%, rgb(29, 192, 207) 100%) 0% 100% / var(--c, 0%) 0.1em no-repeat;
+    -webkit-background-clip: text, padding-box;
+    background-clip: text, padding-box;
+    transition: .5s;
+}
+
+.wat:hover {
+    color: #0000;
+    --c: 100%;
+}
+
+.mname1 dl {
+    cursor: pointer;
+}
+
+.notes-pps {
+    height: auto;
+    padding-bottom: 16px;
+    margin: 0 auto;
+    margin-top: 64px;
+}
+
+.notes-text {
+    font-size: 24px;
+}
+
+.pyqs {
+    background: rgba(255, 126, 132, 0.14);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 96px;
+}
+
+.pyqs h1 {
+    font-size: 64px;
+}
+
+.pyqs h1 span {
+    color: #FD2424;
+    opacity: 90%;
+}
+
+.notes-card8 img,
+.notes-card9 img {
+    margin-left: 10px;
+    width: 535px;
+}
+
+.h3,
+.h4,
+.h5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-pyq {
+    background: linear-gradient(249deg, #DAF2EF 0%, rgba(255, 252, 245, 0.00) 100%);
+    width: 100%;
+}

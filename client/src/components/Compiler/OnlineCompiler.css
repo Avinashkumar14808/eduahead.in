@@ -1,0 +1,108 @@
+.king{
+  background-color: #1e1e1e;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: left;
+}
+
+.app-container {
+  background: linear-gradient(145deg, #2e2e2e, #3e3e3e);
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px #171717, -5px -5px 15px #272727;
+  padding: 20px;
+  width: 85vw;  /* 90% of the viewport width */
+  height: 85vh; /* 90% of the viewport height */
+  text-align: left;
+}
+
+.app-title {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 24px;
+  padding-top: 16px;
+}
+
+.main-content {
+  display: flex;
+  height: calc(90vh - 100px); /* Adjust the height to fit within the container minus the title and padding */
+}
+
+.left-side, .right-side {
+  flex: 1;
+  margin: 10px;
+  overflow-y: scroll; /* Add scrollbar if content overflows */
+  /* overflow: scroll; */
+}
+
+.dropdown-container, .code-input-container, .results-container, .test-cases-container, .question-description {
+  margin-bottom: 20px;
+}
+
+.results-container{
+  margin-top: 23px;
+}
+
+.select-bar{
+  margin-top: 16px;
+}
+
+.question-description{
+  display: flex;
+  flex-direction: column;
+  gap: 16.4px;
+}
+
+select, textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: inset 3px 3px 10px #171717, inset -3px -3px 10px #272727;
+  background: #2e2e2e;
+  color: #ffffff;
+  font-size: 1em;
+}
+
+textarea {
+  resize: none;
+}
+
+.run-button {
+  background: linear-gradient(145deg, #4caf50, #388e3c);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px #171717, -5px -5px 15px #272727;
+  color: #ffffff;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.run-button:hover {
+  transform: scale(1.05);
+}
+
+.results-container ul, .test-cases-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.results-container li, .test-cases-container li {
+  background: #2e2e2e;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: inset 3px 3px 10px #171717, inset -3px -3px 10px #272727;
+  
+}
+
+.results-container li {
+  color: #ffc107;
+}
